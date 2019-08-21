@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pelicula</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Películas</h1>
+        
+        <form action="/guia01-lunes-master/FrmServlet" method="POST">
+            <p><font size="4"> Id       :</font> <input type="number" name="IdPelicula"></p>
+            <p><font size="4"> Película :</font> <input type="text" name="Titulo"></p>
+            <p><font size="4"> Duración :</font> <input type="text" name="Duracion"></p>
+            <p><font size="4"> Director :</font> <input type="text" name="Director"></p>
+            <p><font size="4"> Género   :</font> <input type="text" name="Genero"></p>
+            <p><font size="4"> Estreno  :</font> <input type="date" name="fechaEstreno"></p>
+            <p><font size="4">Clasificación :</font> <input type="text" name="clasificacion"></p>
+            <p><font size="4">Sinopsis  :</font> <input type="text" name="sinopsis"></p>
+            <p>
+            <input type="submit" name="Agregar" value="Agregar">   
+            <input type="submit" name="Modificar" value="Modificar">
+            <input type="reset" value="Borrar">
+            </p>
+        </form>
+    </body>
+</html>
